@@ -1,0 +1,20 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Available tools",
+      "description": "MCP tools exposed by this server.",
+      "transformation": { "fields": ["tool", "title", "actor", "description"] },
+      "display": {
+        "component": "table",
+        "properties": {
+          "tool": { "label": "Tool", "format": "text" },
+          "title": { "label": "Title", "format": "text" },
+          "actor": { "label": "Runs actor", "format": "text" },
+          "description": { "label": "What it does", "format": "text" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cardine-labs-web-tools-mcp",
+  "version": "0.1.0",
+  "description": "MCP server on Apify Standby: crawl to Markdown, SEO audit, tech stack, shop prices, RSS feeds and company jobs as tools for AI agents.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Edoardo D'Alesio (Cardine Labs)",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc --noEmit",
+    "test": "node --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "apify": "^3.4.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": { "node": ">=22.18" }
+}

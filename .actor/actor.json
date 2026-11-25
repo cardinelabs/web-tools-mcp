@@ -1,0 +1,15 @@
+{
+  "actorSpecification": 1,
+  "name": "web-tools-mcp",
+  "title": "Web Data Tools MCP Server for Claude & Cursor",
+  "description": "MCP server for AI agents: crawl sites to Markdown, technical SEO audit, tech stack detection, Shopify and WooCommerce prices, RSS feeds and company job openings.",
+  "version": "0.1",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "usesStandbyMode": true,
+  "webServerMcpPath": "/mcp",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
+}

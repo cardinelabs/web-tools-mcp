@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Available tools",
+  "properties": {
+    "tools": {
+      "type": "string",
+      "title": "Available tools",
+      "description": "A normal run lists the MCP tools this server exposes. Use the Standby URL with /mcp to call them.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}

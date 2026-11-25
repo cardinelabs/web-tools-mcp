@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cardinelabs/web-tools-mcp",
+  "title": "Web Data Tools",
+  "description": "Crawl to Markdown, SEO audit, tech stack, Shopify prices, RSS feeds and company jobs as MCP tools.",
+  "repository": { "url": "https://github.com/cardinelabs/web-tools-mcp", "source": "github" },
+  "websiteUrl": "https://apify.com/cardine-labs/web-tools-mcp",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cardine-labs--web-tools-mcp.apify.actor/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer followed by your Apify API token", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}

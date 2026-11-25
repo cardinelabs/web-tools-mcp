@@ -1,0 +1,7 @@
+{
+  "title": "Web Data Tools MCP Server",
+  "type": "object",
+  "schemaVersion": 1,
+  "description": "No input needed. Connect your MCP client to the Standby URL with /mcp; a normal run only lists the available tools.",
+  "properties": {}
+}
